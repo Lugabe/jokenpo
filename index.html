@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <img class="vitoria" src=" " alt=" ">
+        <img class="derrota" src=" " alt=" ">
+        <h3>O jogo termina em 15 pontos!</h3>
+        <div>
+
+            <h1>Jokenpô</h1>
+            <button onclick="playButtons('stone') " value="stone" class="stone">&#x1F44A;</button>
+            <button onclick="playButtons('paper')" value="paper" class="paper">&#x1F590;</button>
+            <button onclick="playButtons('scissors')" value="scissors" class="scissors">&#x270C;</button>
+
+
+            <p>Sua pontuação: <span class="my-points">0</span></p>
+            <p>Pontuação da Alexa: <span class="alexa-points">0</span></p>
+            <p class="result"></p>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
